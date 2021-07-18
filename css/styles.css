@@ -74,3 +74,7 @@ Example
     border-radius: 12px
 
 }
+.link{
+  font-style:italic;
+  color: #ffa600;
+}
