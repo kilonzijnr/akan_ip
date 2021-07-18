@@ -38,24 +38,38 @@
     <div class="header">
         <h3>KINDLY INPUT YOU BIRTH DETAILS BELOW TO GET YOUR AKAN NAME!</h3>
     </div>
-    <body>
-        <form>
-        <div class="form-group">
-            <label for="day">Input Day of Birth:</label>
-            <input type="number" class="form-group" placeholder="Input Day of Birth" id="day">
-        </div>
-        <br>
-        <div class="form-group">
-            <label for="month">Input Month of Birth:</label>
-            <input type="number" class="form-group" placeholder="Input Month of Birth" id="month">
-        </div>
-        <br>
-        <div class="form-group">
-            <label for="year">Input Year of Birth:</label>
-            <input type="number" class="form-group" placeholder="Input Year of Birth" id="year">
-        </div>
 
-        
-</form>
-</body>
+    <body>
+        <div class="form-body">
+            <form class="form" id="form">
+                <div class="form-group">
+    
+                    <label class="label">Year</label>
+                    <input type="text" placeholder="e.g 2000" id="YearField" required>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label class="label">Month</label>
+                    <input type="text" placeholder="month" id="MonthField" required>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label class="label">Date</label>
+                    <input type="text" placeholder="Date" id="DateField" required>
+                </div>
+                <br>
+                <select class="form-group" name="Gender" id="gender" required>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+                <br>
+                <br>
+                <button onclick="validateform()">submit</button>
+
+
+            </form>
+            <script src="javascript/script.js"></script>
+            <p "output"></p>
+    </body>
+
 </html>
