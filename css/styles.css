@@ -74,7 +74,15 @@ Example
     border-radius: 12px
 
 }
-.link{
-  font-style:italic;
-  color: #ffa600;
+
+.output{
+  text-align: center;
+  color: black;
+  font-style: oblique;
+  font-family: monospace;
+  background-color: rgb(0, 245, 143);
+  opacity: 100%;
+  padding: 20px;
+  border-radius: 12px 
+
 }
